@@ -1,5 +1,4 @@
-import logo from "./logo.svg";
-import "./App.css";
+import "./App.scss";
 import routes from "./infrastructure/routes";
 
 import { BrowserRouter as Router, useRoutes } from "react-router-dom";
@@ -15,18 +14,3 @@ function App() {
 }
 
 export default App;
-
-/*
-   <div className="app">
-            <div className="navbar">
-
-            </div>
-
-            <div className="main">
-
-            </div>
-
-            <div className="footer">
-
-            </div>
-        </div> */

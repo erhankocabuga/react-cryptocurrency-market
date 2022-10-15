@@ -1,13 +1,16 @@
 import React from "react";
 import { Outlet } from "react-router";
-import { Header, Footer } from "../../components";
+import { Header, Footer, Sidebar } from "../../components";
 
 function GeneralLayout() {
     return (
         <>
-            <Header />
-            <Outlet />
-            <Footer />
+            <Sidebar />
+            <div id="main">
+                <Header />
+                <Outlet />
+                <Footer />
+            </div>
         </>
     );
 }
